@@ -7,7 +7,7 @@ function Modal({ children, visible, setVisible }: ModalProps) {
     rootClasses.push(classes.active);
   }
 
-  function closeModal(e: any) {
+  function closeModal() {
     setVisible(false);
   }
 
